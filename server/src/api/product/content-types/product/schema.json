@@ -27,7 +27,7 @@
     "gategory": {
       "type": "relation",
       "relation": "manyToOne",
-      "target": "api::gategory.gategory",
+      "target": "api::category.category",
       "inversedBy": "products"
     },
     "variants": {
@@ -35,6 +35,12 @@
       "relation": "oneToMany",
       "target": "api::variant.variant",
       "mappedBy": "product"
+    },
+    "category": {
+      "type": "relation",
+      "relation": "manyToOne",
+      "target": "api::category.category",
+      "inversedBy": "products"
     }
   }
 }

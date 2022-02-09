@@ -6,4 +6,4 @@
 
 const { createCoreController } = require('@strapi/strapi').factories;
 
-module.exports = createCoreController('api::gategory.gategory');
+module.exports = createCoreController('api::category.category');

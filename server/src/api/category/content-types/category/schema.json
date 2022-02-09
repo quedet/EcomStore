@@ -1,10 +1,10 @@
 {
   "kind": "collectionType",
-  "collectionName": "gategories",
+  "collectionName": "categories",
   "info": {
-    "singularName": "gategory",
-    "pluralName": "gategories",
-    "displayName": "Gategory",
+    "singularName": "category",
+    "pluralName": "categories",
+    "displayName": "Category",
     "description": ""
   },
   "options": {
@@ -30,7 +30,7 @@
       "type": "relation",
       "relation": "oneToMany",
       "target": "api::product.product",
-      "mappedBy": "gategory"
+      "mappedBy": "category"
     }
   }
 }

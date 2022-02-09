@@ -1,9 +1,9 @@
 'use strict';
 
 /**
- * gategory service.
+ * article service.
  */
 
 const { createCoreService } = require('@strapi/strapi').factories;
 
-module.exports = createCoreService('api::gategory.gategory');
+module.exports = createCoreService('api::article.article');
